@@ -1,0 +1,96 @@
+body {
+    background-color: #f6f7fc;
+    padding: 40px;
+}
+#profile {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0px 0px 6px 4px rgba(217, 217, 217, 0.75);
+    margin-top: 2.5rem
+}
+.inputForm{
+    width: 100%;
+}
+#submitBtn{
+    width: 100%;
+    background-color: green;
+    color:white;
+    cursor:pointer
+}
+.profile-picture {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%
+}
+#image {
+    height: 150px;
+    width: 150px;
+}
+#information {
+    flex: 2;
+    padding-left: 20px;
+}
+#detail {
+    flex: 4;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    #profile {
+        flex-direction: column;
+    }
+    #detail {
+        margin: auto;
+    }
+    #information {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+/* ==================================================================== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.70rem;
+  }
+  
+  .button {
+    background-color: #0000f8; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button2 {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50; 
+    padding: 6px 18px
+  }
+
+  .button2:hover{
+    background-color:  #4CAF50;
+    color: white;
+  }
